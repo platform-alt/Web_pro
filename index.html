@@ -4,127 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chovatelská stanice [Název stanice]</title>
-    <style>
-        /* Základní styly */
-        :root {
-            --primary-color: #2c3e50;
-            --accent-color: #e67e22;
-            --light-bg: #f9f9f9;
-            --text-color: #333333;
-            --white: #ffffff;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: var(--text-color);
-            line-height: 1.6;
-            background-color: var(--light-bg);
-        }
-
-        /* Hero sekce */
-        header {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('dog-hero-bg.jpg') no-repeat center center/cover;
-            color: var(--white);
-            text-align: center;
-            padding: 100px 20px;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        /* Hlavní kontejner */
-        main {
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        /* Sekce */
-        section {
-            background: var(--white);
-            padding: 40px;
-            margin-bottom: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        }
-
-        section h2 {
-            color: var(--primary-color);
-            margin-bottom: 20px;
-            font-size: 1.8rem;
-            border-bottom: 2px solid var(--accent-color);
-            display: inline-block;
-            padding-bottom: 5px;
-        }
-
-        section p {
-            margin-bottom: 15px;
-        }
-
-        /* Aktuality / Seznam novinek */
-        .news-list {
-            list-style-type: none;
-        }
-
-        .news-list li {
-            background: var(--light-bg);
-            padding: 15px;
-            margin-bottom: 10px;
-            border-left: 4px solid var(--accent-color);
-            border-radius: 4px;
-        }
-
-        /* Výzva k akci (CTA) */
-        .cta-section {
-            text-align: center;
-            background: var(--primary-color);
-            color: var(--white);
-        }
-
-        .cta-section h2 {
-            color: var(--white);
-            border-bottom-color: var(--accent-color);
-        }
-
-        .btn {
-            display: inline-block;
-            background-color: var(--accent-color);
-            color: var(--white);
-            padding: 12px 30px;
-            margin-top: 20px;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #d35400;
-        }
-
-        /* Patička */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: var(--primary-color);
-            color: var(--white);
-            font-size: 0.9rem;
-        }
-    </style>
 </head>
 <body>
 
@@ -146,7 +25,7 @@
         <!-- 3. Aktuality a novinky -->
         <section>
             <h2>Aktuality a novinky</h2>
-            <ul class="news-list">
+            <ul>
                 <li>S radostí oznamujeme, že očekáváme vrh [Název písmene/plemene]! Příjem rezervací je v plném proudu.</li>
                 <li>Štěňátka z vrhu [Název] jsou na světě! Všechna miminka i maminka se mají čile k světu.</li>
                 <li>Hledáme ty nejlepší a nejmilující domovy pro naše zbývající štěňátka. Neváhejte nás kontaktovat.</li>
@@ -154,11 +33,11 @@
         </section>
 
         <!-- 4. Výzva k akci (Call to Action) -->
-        <section class="cta-section">
+        <section>
             <h2>Máte zájem o štěňátko?</h2>
             <p>Máte zájem o štěňátko z naší chovatelské stanice nebo se chcete na cokoliv zeptat? Neváhejte nás kontaktovat, rádi vám se vším poradíme.</p>
             <p>Přijďte se k nám nezávazně podívat a seznámit se s našimi psy osobně. Těšíme se na vaši návštěvu!</p>
-            <a href="mailto:vas-email@example.com" class="btn">Kontaktujte nás</a>
+            <a href="mailto:vas-email@example.com">Kontaktujte nás</a>
         </section>
     </main>
 
